@@ -1,0 +1,35 @@
+//Write a
+
+program to sum the Number
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+int fane, 5-no, Sum;
+
+cout <<" Enter first no:";
+
+cin>> f-no;
+
+cout<<" Enter secound no:";
+
+cin >> s-no;
+
+Sum=f-no + s-no;
+
+cout <<"f-no << +"+"<ㄍs-noㄍ"=" << sum; sum ;
+
+return 0;
+
+ic
+
+the
+
+arge
+
+}
