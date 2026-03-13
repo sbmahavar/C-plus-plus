@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // Corrected variable names to be valid identifiers
+    int first_number, second_number, sum;
+
+    cout << "Enter first no: ";
+    // Corrected input statement
+    cin >> first_number;
+
+    cout << "Enter second no: ";
+    // Corrected input statement
+    cin >> second_number;
+
+    // Calculation
+    sum = first_number + second_number;
+
+    // Corrected output statement to display the result clearly
+    cout << first_number << " + " << second_number << " = " << sum;
+
+    // Corrected return statement
+    return 0;
+}
