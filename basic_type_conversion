@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+class product {
+    int qty;
+    float price;
+
+public:
+    // Constructor to initialize quantity and price
+    product(int q, float p) {
+        qty = q;
+        price = p;
+    }
+
+    // Function to display the values
+    void display() {
+        cout << "Quantity: " << qty << endl;
+        cout << "Price: " << price << endl;
+    }
+
+    // Conversion operator: Converts product object to a float
+    operator float() {
+        return (qty * price);
+    }
+};
+
+int main() {
+    // Creating an object of class product
+    product p(10, 2.5);
+
+    p.display();
+
+    // Basic type conversion: product object 'p' is converted to float
+    float amount;
+    amount = p; // This calls the 'operator float()' function
+
+    cout << "\nTotal amount: " << amount << endl;
+
+    return 0;
+}
